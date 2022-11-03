@@ -16,3 +16,6 @@ solana-keygen new --outfile ./wallets/Creator.json
 
 solana config set --keypair ./wallets/Owner.json
 solana config set --url https://metaplex.devnet.rpcpool.com/
+
+#27gdiDC8pa9vqCjxh1NmgzhQUpgfhKRRAbhskmhzDU9M
+sugar launch
