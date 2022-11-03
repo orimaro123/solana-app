@@ -2,6 +2,8 @@
 #https://docs.metaplex.com/developer-tools/sugar/overview/installation
 sugar --version
 
+#Setup wallets
+
 #install solana tool suite
 curl https://release.solana.com/v1.14.7/solana-install-init-x86_64-pc-windows-msvc.exe --output C:\solana-install-tmp\solana-install-init.exe --create-dirs
 C:\solana-install-tmp\solana-install-init.exe v1.14.7
@@ -17,5 +19,12 @@ solana-keygen new --outfile ./wallets/Creator.json
 solana config set --keypair ./wallets/Owner.json
 solana config set --url https://metaplex.devnet.rpcpool.com/
 
-#27gdiDC8pa9vqCjxh1NmgzhQUpgfhKRRAbhskmhzDU9M
+#Candy Machine ID: 27gdiDC8pa9vqCjxh1NmgzhQUpgfhKRRAbhskmhzDU9M
 sugar launch
+
+npm install
+
+cp .env.example .env
+
+yarn start
+
