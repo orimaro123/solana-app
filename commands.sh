@@ -19,12 +19,12 @@ solana-keygen new --outfile ./wallets/Creator.json
 solana config set --keypair ./wallets/Owner.json
 solana config set --url https://metaplex.devnet.rpcpool.com/
 
-#Candy Machine ID: 27gdiDC8pa9vqCjxh1NmgzhQUpgfhKRRAbhskmhzDU9M
+#Candy Machine ID: CRDBue631azmJ7im1BgGGTUKCvNdofKeaxzAtnhiX4Kn
 sugar launch
 
 npm install
 
 cp .env.example .env
 
-yarn start
+npm start
 
